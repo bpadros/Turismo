@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="galeria de Funkopop" />
+    <meta name="author" content="Nicolas Moya, Claudio Sanchez, Benjamin Padros, Jonathan Singh, Fermin Aguilar" />
+    <meta name="keywords" content="banco, creditos, seguridad" />
+    <!-- CSS only -->
+    <link rel="icon" href="../img/logo-turismo.svg" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+    src="https://kit.fontawesome.com/3fc9c95924.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Travel Roll</title>
+  </head>
+  <body class="bg-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top mt-0 fondo">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <h3 class="display-6 logo">
+              TRAVEL ROLL <i class="fas fa-globe-americas fa-1x text-light"></i>
+            </h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarturismo"
+            aria-controls="navbarturismo"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarturismo">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalturismo"
+                  >Suscripcion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/acercadenosotros.html"
+                  >Acerca de nosotros</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="titulosPrincipales py-5 mb-3 text-center text-dark">
+          <h1 class="display-2 text-white">CONTACTO</h1>
+          <h2 class="display-6 text-white">
+            No te quedes con dudas, aquí estoy para ayudarte
+          </h2>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row my-5">
+          <h2 class="text-center display-6">¡¡¡Buenas!!!</h2>
+          <div class="col-sm-12 col-md-6 lead my-5 fs-3 text-center">
+            <p class="lead fs-3">
+              Compárte con nosotros todas tus dudas o sugerencias. Cuéntanos
+              cuales son los temas que más te preocupan a la hora de viajar por
+              Argentina.
+            </p>
+            <br />
+            <p class="lead fs-3">
+              Comparte con nosotros todo lo que quieras e intentarémos
+              responderte lo más pronto posible.
+            </p>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 my-5 border border-2 text-center orden-sm"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1006291731114!2d-65.20947388434472!3d-26.83675149650558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e93a13151%3A0xb598352fc0c71f5b!2sGral.%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1627583510102!5m2!1ses!2sar"
+              width="100%"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="col-sm-12 col-md-6 mb-5">
+            <section class="container">
+              <form class="w-md-50 formulario-sm mb-3">
+                <div class="mb-3">
+                  <label for="nombreyapellido" class="form-label lead fs-5"
+                    >Nombre (Requerido)
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombreyapellido"
+                    placeholder="Claudio Sanchez"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="correoElectronico" class="form-label lead fs-5"
+                    >Correo Electronico (Requerido)</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="correoElectronico"
+                    placeholder="nombre@travelroll.com"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="asunto" class="form-label lead fs-5"
+                    >Asunto</label
+                  >
+                  <input type="text" class="form-control" id="asunto" />
+                </div>
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label lead fs-5"
+                    >Mensaje</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="mensaje"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Modal turismo -->
+    <div
+      class="modal fade"
+      id="modalturismo"
+      tabindex="-1"
+      aria-labelledby="modalturismoLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel">Sucribite con nosotros</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 form-check">
+                <p>
+                  Ingrese su direccino de correo electronico para recibir
+                  notifcaciones y suscripciones a nuestro blog.
+                </p>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-light py-4">
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 centrado">
+            <h3 class="my-4 logo display-5">TRAVEL ROLL</h3>
+            <i class="fas fa-globe-americas fa-10x text-light"></i>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3 class="my-4 display-6 fs-3">Seguinos en redes:</h3>
+            <div class="centrado">
+              <a href="/pages/error-404.html" class="me-2"
+                ><i class="fab fa-facebook fa-3x text-light"></i
+              ></a>
+              <a href="/pages/error-404.html"
+                ><i class="fab fa-instagram-square fa-3x text-light"></i
+              ></a>
+              <a href="/pages/error-404.html"
+                ><i class="fab fa-twitter fa-3x text-light ms-2"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3 class="my-4 text-center display-6 fs-3">
+              Cualquier consulta no dudes en llamarnos:
+            </h3>
+            <h5 class="lead ms-3">+54 3815-20-12-13 (Tucumán)</h5>
+            <ul>
+              <li class="lead fs-6">Lunes a Viernes de 8 a 20hs</li>
+              <li class="lead fs-6">Sabados de 8 a 12hs</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

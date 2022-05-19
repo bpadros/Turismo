@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Nicolas Moya, Claudio Sanchez, Benjamin Padros, Jonathan Singh, Fermin Aguilar"
+    />
+    <meta
+      name="keywords"
+      content="argentina, noa, nea, region patagonica, region pampeana, cuyo, turismo,jujuy,tucuman,catamarca,salta,santiago del estero, formosa, chaco, corrientes, misiones, la rioja, san juan, san luis, mendoza, cordoba, santa fe, buenos aires, la pampa"
+    />
+    <meta name="description" content="blog informativo de turismo argentino" />
+    <link rel="icon" href="img/logo-turismo.svg" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3fc9c95924.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>TravelRoll</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top mt-0 fondo">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <h3 class="display-6 logo">
+              TRAVEL ROLL <i class="fas fa-globe-americas fa-1x text-light"></i>
+            </h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarturismo"
+            aria-controls="navbarturismo"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarturismo">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalturismo"
+                  >Suscripcion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/acercadenosotros.html"
+                  >Acerca de nosotros</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Inicio del Slider -->
+      <section>
+        <div
+          id="slider-travelroll"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#slider-travelroll"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slider-travelroll"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slider-travelroll"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slider-travelroll"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slider-travelroll"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/slider/slider-1.jpg"
+                class="d-block w-100 slider-responsive"
+                alt="Aconcagua"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider/slider-2.jpg"
+                class="d-block w-100 slider-responsive"
+                alt="Obelisco"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider/slider-3.jpg"
+                class="d-block w-100 slider-responsive"
+                alt="Chubut"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider/slider-4.jpg"
+                class="d-block w-100 slider-responsive"
+                alt="San rafael"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider/slider-5.jpg"
+                class="d-block w-100 slider-responsive"
+                alt="Pico del aconcagua"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#slider-travelroll"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#slider-travelroll"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Fin del slider -->
+      <h1 class="my-5 text-center display-3">Disfruta Argentina</h1>
+      <div class="container mt-5 mb-3">
+        <div class="row">
+          <!-- Columna entradas -->
+          <section class="col-sm-12 col-md-8 me-md-4 me-lg-5">
+            <section class="row">
+              <!-- Entrada NOA -->
+              <article class="col-sm-12 col-md-6 mb-5">
+                <div>
+                  <div class="images-sizes">
+                    <img
+                      src="/img/jujuy-1.jpg"
+                      class="w-100"
+                      alt="cerro de colores, Jujuy"
+                    />
+                  </div>
+                  <hr class="mt-5" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center display-5">Noroeste</h5>
+                    <p class="card-text lead">
+                      El noroeste argentino (NOA) es una región
+                      histórico-geográfica de la República Argentina, estando
+                      integrada por las provincias de: Jujuy, Salta, Tucumán,
+                      Catamarca, La Rioja y Santiago del Estero.
+                    </p>
+                    <a href="/pages/error-404.html" class="btn btn-primary"
+                      >Conoce mas</a
+                    >
+                  </div>
+                </div>
+              </article>
+              <!-- Entrada NEA -->
+              <article class="col-sm-12 col-md-6 mb-5">
+                <div>
+                  <!-- imagen Nea -->
+                  <div class="images-sizes">
+                    <img
+                      src="/img/iguazu-misiones.jpg"
+                      class="w-100"
+                      alt="Cataratas del iguazu, Misiones"
+                    />
+                  </div>
+                  <hr class="mt-5" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center display-5">Noreste</h5>
+                    <p class="card-text lead">
+                      El nordeste argentino (NEA) es una de las regiones
+                      histórico-geográficas en que se subdivide la República
+                      Argentina. Comprende las provincias de Formosa, Chaco,
+                      Corrientes y Misiones. Esta región tiene muchos rasgos
+                      paisajísticos, ecológicos, climáticos y culturales
+                      parecidos.
+                    </p>
+                    <a
+                      href="/pages/error-404.html"
+                      class="btn btn-primary disabled"
+                      >Conoce mas</a
+                    >
+                  </div>
+                </div>
+              </article>
+              <!-- Entrada CUYO-->
+              <article class="col-sm-12 col-md-6 mb-5">
+                <div>
+                  <!-- imagen Cuyo -->
+                  <div class="images-sizes">
+                    <img
+                      src="/img/san-rafael-mendoza.jpg"
+                      class="w-100"
+                      alt="lago en san rafael, mendoza"
+                    />
+                  </div>
+                  <hr class="mt-5" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center display-5">Cuyo</h5>
+                    <p class="card-text lead">
+                      Cuyo es una región geográfica e histórica situada en el
+                      centro oeste de la República Argentina, tradicionalmente
+                      conformada por las provincias de Mendoza, San Juan y San
+                      Luis, cuyos límites coinciden prácticamente con la región
+                      geográfica y que comparten una identidad cultural y
+                      tradición histórica en común.
+                    </p>
+                    <a
+                      href="/pages/error-404.html"
+                      class="btn btn-primary disabled"
+                      >Conoce mas</a
+                    >
+                  </div>
+                </div>
+              </article>
+              <!-- Entrada PAMPEANA-->
+              <article class="col-sm-12 col-md-6 mb-5">
+                <div>
+                  <div class="images-sizes">
+                    <img
+                      src="/img/buenosaires-1.jpg"
+                      class="w-100"
+                      alt="Puente de la mujer, buenos aires"
+                    />
+                  </div>
+                  <hr class="mt-5" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center display-5">
+                      Region Pampeana
+                    </h5>
+                    <p class="card-text lead">
+                      La región pampeana es un área geográfica situada en el
+                      centro de Argentina, según la división administrativa que
+                      ofrece el INDEC. La componen las siguientes
+                      jurisdicciones: Provincia de Santa Fe, Entre Ríos,
+                      Provincia de La Pampa, Provincia de Córdoba, Ciudad
+                      Autónoma de Buenos Aires (CABA), y Provincia de Buenos
+                      Aires
+                    </p>
+                    <a href="pages/entrada-blog.html" class="btn btn-primary"
+                      >Conoce mas</a
+                    >
+                  </div>
+                </div>
+              </article>
+              <!-- Entrada PATAGONICA-->
+              <article class="col-sm-12 col-md-6 mb-5">
+                <div>
+                  <div class="images-sizes">
+                    <img
+                      src="/img/elChalten-fitzroy-santacruz.jpg"
+                      class="w-100"
+                      alt="el chalten, Santa cruz "
+                    />
+                  </div>
+                  <hr class="mt-5" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center display-5">Patagonia</h5>
+                    <p class="card-text lead">
+                      La Patagonia se ubica en el extremo sur del continente
+                      americano. Abarca las provincias más australes: Neuquén,
+                      Río Negro, Chubut, Santa Cruz y Tierra del Fuego,
+                      Antártida e Islas del Atlántico Sur, con características
+                      propias que la diferencias de las demás regiones.
+                    </p>
+                    <a
+                      href="/pages/error-404.html"
+                      class="btn btn-primary disabled"
+                      >Conoce mas</a
+                    >
+                  </div>
+                </div>
+              </article>
+              <!-- Paginacion -->
+              <div class="d-flex justify-content-center">
+                <nav aria-label="...">
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <span class="page-link"><<</span>
+                    </li>
+                    <li class="page-item active">
+                      <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item" aria-current="page">
+                      <a class="page-link" href="/pages/error-404.html">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="/pages/error-404.html">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="/pages/error-404.html">>></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </section>
+          </section>
+          <!-- Columna derecha -->
+          <section
+            class="
+              col-sm-12 col-md-3
+              ms-md-4 ms-lg-5
+              margen-sm
+              d-flex
+              flex-column
+              aling-items-center
+            "
+          >
+            <div>
+              <form class="d-flex mb-md-5 mt-sm-5 buscador-md">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success btn-chico" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+            <h2 class="display-6 my-sm-4 mt-md-5 text-center margen-categorias">
+              Nuestras Secciones
+            </h2>
+            <div class="accordion" id="accordionCategorias">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    NOA
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-group">
+                      <li>Jujuy</li>
+                      <li>Salta</li>
+                      <li>Catamarca</li>
+                      <li>La Rioja</li>
+                      <li>Tucuman</li>
+                      <li>Santiago del Estero</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    NEA
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-group">
+                      <li>Formosa</li>
+                      <li>Chaco</li>
+                      <li>Corrientes</li>
+                      <li>Misiones</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Cuyo
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-group">
+                      <li>San Juan</li>
+                      <li>San Luis</li>
+                      <li>Mendoza</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour"
+                  >
+                    La Pampa
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFour"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-group">
+                      <li>Cordoba</li>
+                      <li>Santa Fe</li>
+                      <li>Entre Rios</li>
+                      <li>Buenos Aires</li>
+                      <li>Ciudad Autónoma de Buenos Aires (CABA)</li>
+                      <li>La Pampa</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive"
+                  >
+                    Patagonia
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFive"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-group">
+                      <li>Neuquen</li>
+                      <li>Rio Negro</li>
+                      <li>Chubut</li>
+                      <li>Santa Cruz</li>
+                      <li>Tierra del fuego</li>
+                      <li>Antártida</li>
+                      <li>Islas del Atlántico Sur</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="boton-galeria text-center badge rounded-pill tamano-letra"
+            >
+              <a
+                href="/pages/galeria.html"
+                class="text-decoration-none text-white"
+                >Visita nuestra galeria <br />
+                de imagenes</a
+              >
+            </div>
+            <section class="margin d-none d-sm-none d-md-block">
+              <img src="/img/descarga.jfif" class="w-100" alt="publicidad" />
+            </section>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- Modal turismo -->
+    <div
+      class="modal fade"
+      id="modalturismo"
+      tabindex="-1"
+      aria-labelledby="modalturismoLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel">Suscribete con nosotros</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 form-check">
+                <p>
+                  Ingrese su direccion de correo electronico para recibir
+                  notifcaciones y suscripciones a nuestro blog.
+                </p>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-light py-4">
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 centrado">
+            <h3 class="my-4 logo display-5">TRAVEL ROLL</h3>
+            <i class="fas fa-globe-americas fa-10x text-light"></i>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3 class="my-4 display-6 fs-3">Seguinos en redes:</h3>
+            <div class="centrado">
+              <a href="/pages/error-404.html" class="me-2"
+                ><i class="fab fa-facebook fa-3x text-light"></i
+              ></a>
+              <a href="/pages/error-404.html"
+                ><i class="fab fa-instagram-square fa-3x text-light"></i
+              ></a>
+              <a href="/pages/error-404.html"
+                ><i class="fab fa-twitter fa-3x text-light ms-2"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3 class="my-4 text-center display-6 fs-3">
+              Cualquier consulta no dudes en llamarnos:
+            </h3>
+            <h5 class="lead ms-3">+54 3815-20-12-13 (Tucumán)</h5>
+            <ul>
+              <li class="lead fs-6">Lunes a Viernes de 8 a 20hs</li>
+              <li class="lead fs-6">Sabados de 8 a 12hs</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
